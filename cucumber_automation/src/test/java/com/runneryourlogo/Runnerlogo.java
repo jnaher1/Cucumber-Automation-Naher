@@ -9,11 +9,12 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources",
 		glue = {"youlogo.steps"},// step defination package name
-		tags = {"@smokeTest"},
+		tags = {"@jenkinsTest"},
 		plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 		monochrome= true
 				
 		)
 public class Runnerlogo {
+	
 
 }
