@@ -1,4 +1,4 @@
-@smokeTest
+@smokeTest@jenkinsTest
 Feature: verify checkout feature from your logo website
 
 Scenario: user able to successfully login to your logo website
